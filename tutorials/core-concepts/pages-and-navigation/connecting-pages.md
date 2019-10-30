@@ -28,7 +28,7 @@ There are real advantages to doing it this way. If the site has a `prefix` optio
 A common navigation design is to have a row of "tabs" at the top. Want to display those no matter where in the site you are? Add this to your `home.html`:
 
 {% code-tabs %}
-{% code-tabs-item title="lib/modules/apostrophe-pages/views/home.html" %}
+{% code-tabs-item title="lib/modules/apostrophe-pages/views/pages/home.html" %}
 ```markup
 <ul class="tabs">
   {% for tab in data.home._children %}
